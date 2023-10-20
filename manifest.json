@@ -4,5 +4,12 @@
     "description": "New UI for MCTiers Website",
     "manifest_version": 3,
     "default_locale": "en",
+    "content_scripts": [
+        {
+            "matches": ["https://*.mctiers.com/*", "https://mctiers.com/*", "http://*.mctiers.com/*", "http://mctiers.com/*"],
+            "css": ["CSS/main.css"],
+            "js": []
+        }
+    ],
     "author": "KernelBreaker_"
 }
