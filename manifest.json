@@ -1,0 +1,8 @@
+{
+    "name": "MCTiers UI",
+    "version": "1.0.0",
+    "description": "New UI for MCTiers Website",
+    "manifest_version": 3,
+    "default_locale": "en",
+    "author": "KernelBreaker_"
+}
