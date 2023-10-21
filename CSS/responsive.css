@@ -1,0 +1,36 @@
+html, body {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: none !important;
+}
+
+.SX1dr9D { /* navbar */
+    width: 100%;
+    min-width: none !important;
+    height: 50px;
+}
+
+.vS3BlwO { /*mctiers.com*/
+    display: none !important;
+}
+
+.pcYAS7Y { /* search bar container */
+    position: absolute !important;
+    left: 2% !important;
+    transform: translate(-0%, 0) !important;
+    width: 96vw !important;
+    height: 35px !important;
+}
+
+.Z--0YlZ { /* search bar */
+    width: 96vw !important;
+    height: 35px !important;
+}
+
+input[type="text"] { /* search bar input */
+    width: 96vw !important;
+    height: 35px !important;
+    position: absolute;
+    left: 50% !important;
+    transform: translate(-50%, 0);
+}
