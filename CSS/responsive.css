@@ -4,10 +4,21 @@ html, body {
     min-width: none !important;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+.aGiS-qE { /* main container */
+    background-image: url("https://i.ytimg.com/vi/xAddVq4Awq4/maxresdefault.jpg") !important;
+    background-size: cover !important; /* Réglez la taille de l'image selon vos besoins */
+    background-position: center center !important; /* Centrez l'image */
+}
+
 .SX1dr9D { /* navbar */
     width: 100%;
     min-width: none !important;
     height: 50px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .vS3BlwO { /*mctiers.com*/
@@ -33,4 +44,33 @@ input[type="text"] { /* search bar input */
     position: absolute;
     left: 50% !important;
     transform: translate(-50%, 0);
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.cPVdVTf { /*overall-ranking-chart*/ 
+    position: relative !important;
+    left: 2vw !important;
+    width: 96vw !important;
+}
+
+.NOK8An4 { /*ranking-selector*/
+    width: 96vw !important;
+}
+
+._26MSXHF, ._26MSXHF::before, ._26MSXHF::after { /*ranking-category*/
+    background-color: rgba(40, 40, 40, 1) !important;
+    border: none !important;
+}
+
+._26MSXHF::before, ._26MSXHF::after { /*ranking-category*/
+    top: 0px !important;
+    height: 50px !important;
+}
+
+._26MSXHF::before {
+    left: -20px !important;
+}
+
+._26MSXHF::after {
+    right: -20px !important;
 }
