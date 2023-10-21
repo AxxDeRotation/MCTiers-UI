@@ -2,6 +2,10 @@ html, body {
     box-sizing: border-box;
     width: 100%;
     min-width: none !important;
+    background-image: url("https://i.ytimg.com/vi/xAddVq4Awq4/maxresdefault.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed;
 }
 
 ::-webkit-scrollbar {
@@ -9,9 +13,7 @@ html, body {
 }
 
 .aGiS-qE { /* main container */
-    background-image: url("https://i.ytimg.com/vi/xAddVq4Awq4/maxresdefault.jpg") !important;
-    background-size: cover !important; /* Réglez la taille de l'image selon vos besoins */
-    background-position: center center !important; /* Centrez l'image */
+    
 }
 
 .SX1dr9D { /* navbar */
@@ -73,4 +75,53 @@ input[type="text"] { /* search bar input */
 
 ._26MSXHF::after {
     right: -20px !important;
+}
+
+.q5a8gP5 { /* separator */
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.Mtz30OF { /*main-chart*/ 
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.eniNdtn { /*player-line*/
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.Zw1udpZ { /*player-line-pair*/
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.pku-AyF { /*default-player-rank*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+._6hs0DHR { /*player-rank-1*/
+    background-color: #FBB03B !important;
+}
+
+.Hlu4Wkr { /*player-rank-2*/
+    background-color: #B3B3B3 !important;
+}
+
+.clH0vXI { /*player-rank-3*/
+    background-color: #E38D4F !important;
+}
+
+.XpMXb9n { /*misc-player-infos*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+._8h7ZAvq { /*player-ranks-container*/
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.zUhqIWn { /*player-rank*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.EjS5bpE { /*player-rank-content*/
+    background-color: rgba(0, 0, 0, 0) !important;
 }
