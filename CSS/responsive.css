@@ -53,6 +53,8 @@ input[type="text"] { /* search bar input */
     position: relative !important;
     left: 2vw !important;
     width: 96vw !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 .NOK8An4 { /*ranking-selector*/
