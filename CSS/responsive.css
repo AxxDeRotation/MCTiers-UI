@@ -124,4 +124,7 @@ input[type="text"] { /* search bar input */
 
 .EjS5bpE { /*player-rank-content*/
     background-color: rgba(0, 0, 0, 0) !important;
+    color: #cccccc !important;
+    font-size: 80%  !important;
+    font-weight: 400 !important;
 }
