@@ -80,7 +80,7 @@ input[type="text"] { /* search bar input */
 }
 
 .q5a8gP5 { /* separator */
-    background-color: rgba(0,0,0,0.5) !important;
+    background-color: rgba(40,40,40,1) !important;
 }
 
 .Mtz30OF { /*main-chart*/ 
@@ -129,4 +129,37 @@ input[type="text"] { /* search bar input */
     color: #cccccc !important;
     font-size: 80%  !important;
     font-weight: 400 !important;
+}
+
+.EjS5bpE.af4ehsC { /*player-rank-HT*/
+    background-color: rgba(62, 113, 244, 0.5) !important;
+}
+
+.EjS5bpE.gloyL5J { /*player-rank-LT*/
+    background-color: rgba(128, 181, 255, 0.5) !important;
+}
+
+.EjS5bpE.LxVm7UP { /*player-rank-RETIRED*/
+    background-color: rgba(161, 119, 255, 0.5) !important;
+}
+
+.L01uj9h { /*tierlist*/
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+._3lS8Z9g { /*tierlist-frames*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    padding: 0 !important;
+}
+
+.hoURucT { /*tiers-separator*/
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Bbe5V8B .muYMFag { /*HT-player*/
+    background-color: rgba(62, 113, 244, 0.8) !important;
+}
+
+.Bbe5V8B.En20RQV .muYMFag { /*LT-player*/
+    background-color: rgba(128, 181, 255, 0.8) !important;
 }
