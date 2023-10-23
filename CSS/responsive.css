@@ -1,3 +1,12 @@
+@charset "UTF-8";
+
+/*
+--- IMAGES ---
+Vanilla: https://i.ytimg.com/vi/xAddVq4Awq4/maxresdefault.jpg
+Sword: https://the-minecraft.fr/upload/default/holy-minecraft-sword.jpeg
+
+*/
+
 html, body {
     box-sizing: border-box;
     width: 100%;
@@ -13,7 +22,7 @@ html, body {
 }
 
 .aGiS-qE { /* main container */
-    
+    /*---*/
 }
 
 .SX1dr9D { /* navbar */
@@ -47,6 +56,10 @@ input[type="text"] { /* search bar input */
     left: 50% !important;
     transform: translate(-50%, 0);
     background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.Z--0YlZ .u6G5-E5 { /*search-icon*/
+    top: 50% !important;
 }
 
 .cPVdVTf { /*overall-ranking-chart*/ 
@@ -177,4 +190,37 @@ input[type="text"] { /* search bar input */
 .-jJDNxh {/*footer-placeholder*/
     height: 120px !important;
     padding: 30px 80px !important;
+}
+
+._2jy4UCc { /*back-button*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.JAKx5mJ { /*info-content*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 10px;
+    padding: 0 !important;
+    margin: 30px !important;
+}
+
+.JAKx5mJ h1, .JAKx5mJ .pdQCH-- { /*info-content*/
+    margin: 15px !important;
+}
+
+.ty2Zm-C { /*player-profile*/
+    min-width: none !important;
+    min-height: none !important;
+    width: 20vw !important;
+    height: 80vh !important;
+}
+
+.Ljqknki { /*player-profile*/
+    background-color: rgba(40, 40, 40, 0.6) !important;
+    border-radius: 15px !important;
+    overflow-y: scroll !important;
+}
+
+.Ie-Euqb { /*player-profile-top-container*/
+    height: 80px !important;
+    padding: 10px 0px !important;
 }
