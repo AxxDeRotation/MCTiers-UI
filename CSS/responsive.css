@@ -224,3 +224,57 @@ input[type="text"] { /* search bar input */
     height: 80px !important;
     padding: 10px 0px !important;
 }
+
+@media only screen and (max-width: 1000px) {
+    .V43ykyx { /*player-region*/
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .V43ykyx { /*player-region*/
+        display: none !important;
+    }
+
+    .OvfkF0x { /*player-score*/
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .-nAhK-E { /*selector-img*/
+        width: 3vw !important;
+    }
+
+    ._26MSXHF div {
+        width: fit-content !important;
+        height: fit-content !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    ._26MSXHF div span { /*ranking-title*/
+        font-size: 2vw !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .V43ykyx { /*player-region*/
+        display: none !important;
+    }
+
+    .OvfkF0x { /*player-score*/
+        display: none !important;
+    }
+
+    ._8h7ZAvq { /*player-ranks-container*/
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sFFsg3r span strong {
+        font-size: 6vw !important;
+    }
+}
